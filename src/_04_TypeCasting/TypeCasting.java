@@ -60,5 +60,6 @@ public class TypeCasting {
         System.out.println(d);
 //        i = Integer.parseInt("숫자");
 //        System.out.println(i);
+
     }
 }
