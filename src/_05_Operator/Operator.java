@@ -92,5 +92,7 @@ public class Operator {
         int height = 140;
         String result = (height >= 120) ? "탑승가능" : "탑승 불가능";
         System.out.println(result);
+
+
     }
 }
