@@ -19,5 +19,6 @@ public class String02 {
         System.out.println(s1 + " " + s2); //
         System.out.println(s1.concat(" ").concat(s2));
 
+
     }
 }
