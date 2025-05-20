@@ -10,7 +10,6 @@ public class MultipleTable {
                 System.out.println(i + "X" + j + "=" + i*j);
             }
             System.out.println();
-
         }
     }
 }
