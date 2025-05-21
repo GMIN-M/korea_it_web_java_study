@@ -1,6 +1,7 @@
 package _14_Array;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Array03 {
     public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class Array03 {
         System.out.println(Arrays.toString(nums));
 
         // 내림차순
-        Arrays.sort(nums, Compartor.reverseOrder());
+        Arrays.sort(nums, Comparator.reverseOrder());
         // int는 원시적인 자료형
         // Integer는 클래스로 이루어져있고 Wrapper Class
         // 같은 정수지만 int는 계산만 가능한 반면
