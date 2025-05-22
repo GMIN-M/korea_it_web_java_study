@@ -22,8 +22,26 @@ public class Overloading {
         return result;
 
     }
-    public static void printInfo() {
 
+    public static void printInfo(String name) {
+        System.out.println("이름은" + name);
+    }
+    public static void printInfo(String name, int age) {
+        System.out.println("이름은" + name + "나이는" + age);
+    }
+
+    public static void printInfo(String name, int age, String email) {
+        System.out.println("이름은" + name + "나이는" + age + "이메일" + email);
+    }
+
+    public static void add(int a, int b) {
+        System.out.println(a + "+" + b + "=" +(a+b));
+    }
+    public static void add(double a, double b) {
+        System.out.println(a + "+" + b + "=" +(a+b));
+    }
+    public static void add(String strNum1, String strNum2) {
+        System.out.println(Integer.parseInt(strNum1) + "+" + Integer.parseInt(strNum2) + "=" +(Integer.parseInt(strNum1)+Integer.parseInt(strNum2)));
     }
 
 
@@ -37,15 +55,19 @@ public class Overloading {
         System.out.println(getPower(2,4));
 
         // 문제
-
         // 메소드 이름 printInfo()
         // 문자열 이름만 전달 => 이름을 출력
         // 문자열 이름, 정수 나이 전달 => 이름 나이 출력
         // 문자열 이름, 정수 나이, 문자열 이메일 => 이름 나이 이메일 출력
 
+
         // 메소드 이름 add()
         // int와 int 덧셈
         // double과 double 덧셈
         // 문자열숫자와 문자열숫자 덧셈
+        add(3,4);
+        add(1.2,3.4);
+        add("4","5");
+
     }
 }
